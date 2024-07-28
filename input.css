@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply bg-purple-900 rounded-xl hover:text-purple-900 hover:bg-white hover:border-2 hover:border-purple-900 active:bg-purple-600 px-2 my-4;
+}
+
+@tailwind utilities;
+
+
+.btn1{
+    @apply bg-red-900 rounded-xl hover:text-red-900 hover:bg-white hover:border-2 hover:border-red-900 active:bg-red-600 px-2 my-4;
+}
+/* @tailwind utilities; */
